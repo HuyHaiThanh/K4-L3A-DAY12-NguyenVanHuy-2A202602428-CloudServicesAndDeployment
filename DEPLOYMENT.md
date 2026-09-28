@@ -85,7 +85,8 @@ POST /ask không có API key → HTTP 401
 POST /ask có API key, X-User-Id: sv-test → HTTP 200
 {"answer":"Câu hỏi hay. Deploy là gì thường được giải quyết bằng cách chuẩn hóa môi trường chạy: cùng một image chạy giống nhau ở laptop và trên cloud.","user_id":"sv-test","history_length":0,"cost_usd":0.00002145,"tokens":{"in":3,"out":35}}
 
-Rate limit: cần chạy kiểm tra 15 request sau khi hoàn thiện tài liệu.
+Rate limit với user test `review-rate-20260928` (15 request):
+200 200 200 200 200 200 200 200 200 200 429 429 429 429 429
 ```
 
 ## Ảnh Chụp Màn Hình
