@@ -286,3 +286,6 @@ Nộp **link repository** lên Codelab. Repo phải ở chế độ public.
 - [ ] Không còn `NotImplementedError` nào trong `app/`
 - [ ] Có commit ở nhiều mốc thời gian, không phải một commit duy nhất
 - [ ] *(Bonus)* `.github/workflows/ci.yml` chạy xanh, README có badge `passing`
+# Cloud Services and Deployment
+
+[![CI](https://github.com/HuyHaiThanh/K4-L3A-DAY12-NguyenVanHuy-2A202602428-CloudServicesAndDeployment/actions/workflows/ci.yml/badge.svg)](https://github.com/HuyHaiThanh/K4-L3A-DAY12-NguyenVanHuy-2A202602428-CloudServicesAndDeployment/actions/workflows/ci.yml)
